@@ -1,0 +1,121 @@
+*{
+	font-weight: 300;
+	box-sizing: border-box;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+body{
+
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+}
+header{
+	display: inline-block;
+	width: 100%;
+}
+
+h1{
+	color: #F9D483;
+	float: left;
+	padding: 0px;
+	margin-right: 15px;
+}
+h2{
+	color: black;
+	text-decoration: none;
+
+}
+h2 a{
+	color: #000000;
+	text-decoration: none;
+}
+
+h4{
+	text-align: right;
+}
+h4 a{
+	color: #F9D483;
+}
+h5{
+	font-size: 20px;
+	color: black;
+}
+h6 a{
+	color: #F9D483;
+	font-size: 15px;
+	text-align: right;
+}
+nav{
+	
+	height: 20px;
+	text-align: center;
+	width:100%;
+	display: inline;
+	float: left;
+
+	
+}
+nav a{
+	color: #FFFFFF;
+	background-color: #D2D2D2;
+	text-decoration: none;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	width: 15%;
+
+}
+ nav a:hover, nav a:focus{
+	color: #F9D483;
+
+}
+
+h3{
+	color: #D2D2D2;
+}
+p{
+	color: #D2D2D2;
+}
+section p::first-letter{
+	font-size: 400%;
+	float: left;
+}
+hr{
+	color: #D2D2D2;
+}
+li a{
+	color: #F9D483;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+img{
+	width: auto;
+}
+section{
+	width: 75%;
+	float: left;
+	margin-right: 50px;
+	
+}
+aside img{
+	
+	width: 15%;
+	object-fit: contain;
+}
+aside{
+	width: 25%
+	float: right;
+}
+footer{
+	clear: both;
+	float: none;
+	display: inline-block;
+	width: 50%;
+	padding: 0px;
+
+}
+footer nav a{
+	color:#F9D483;
+	background-color: white;
+
+}
