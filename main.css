@@ -1,0 +1,196 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+/*   border: 1px solid red; */
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS for your reference:
+    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
+
+    White - #ffffff;
+    Light Grey - #D4E1DB
+    Dark Grey - #3C3A3A
+    Grey/Black(text color) - #080808
+    Yellow - #FEDB0D
+    Red - #FF0121
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+  font-family: source sans pro (400);
+  text-decoration: none;
+
+  /* Set some defaults! font-family, font-size, color, etc. */
+}
+
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+
+  /* Set some default styles for anchors (color, text decoration) */
+
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+
+
+/* Header
+   ================================================================ */
+header{
+  color: white;
+  background-color: #3C3A3A;
+  width: 100%;
+  float: left;
+  display: inline;
+  border-bottom: 3px solid #FEDB0D;
+}
+h1{
+  font-family: "Merriweather (700)", Merriweather, serif;
+  font-weight: 300;
+  float: left;
+  display: inline;
+  margin-left: 30px;
+  width: 50%;
+  font-size: 30px;
+}
+/* Section */
+h2{
+  font-weight: 300;
+  text-align: center;
+  font-family: "Merriweather Italic (700)", Merriweather, serif;
+  font-size: 25px;
+  background-color: #D4E1DB;
+  float: left;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 50px;
+  font-size: 25px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+li{
+  display: inline;
+  width: 31%;
+  margin: 5px;
+  float:left;
+  border-right: 1px solid #D4E1DB;
+
+}
+li h3{
+  font-family: "Merriweather (800)", Merriweather, serif;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 20px;
+}
+li p{
+  font-family: "Source Sans Pro (400)", Source Sans Pro, sans-serif;
+  margin-left: 20px;
+}
+div ul a{
+  background-color: #D4E1DB;
+  padding: 10px;
+  text-decoration: none;
+  color: #080808;
+  font-weight: 900;
+  float: left;
+  word-spacing: 1px;
+  width: 75%;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+}
+.options li:last-child {
+  border-right: 0px;
+}
+
+
+/* Footer
+   ================================================================ */
+footer{
+  clear: both;
+  float: left;
+  background-color: #3C3A3A;
+  color: white;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+h6{
+  margin-left: 30px;
+}
+
+/* Navigation
+   ================================================================ */
+.options 
+}
+
+/*Overlapping Textbox*/
+div ~ h4{
+  font-weight: bold;
+  font-family: 'Oswald'
+  font-size: 30px;
+}
+.textbox{
+  z-index: 5;
+  font-size: 20px;
+  position: absolute;
+  top:200px;
+  right: 50px;
+  width: 40%;
+  background-color: rgba(212, 225, 219, 0.8);
+  padding: 50px;
+  line-height: 1.5;
+  box-shadow: 10px 10px 5px #888888;
+}
+div a{
+  background-color: #FF0121;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+/* Buttons*/
+   nav a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Source Sans Pro';
+  font-family: sans-serif;
+  font-size: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 5px;
+  display: inline block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+================================================================ */
